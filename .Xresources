@@ -1,0 +1,62 @@
+! Start flavours
+! Base16 nexus-dark
+! Scheme: Duane Cummins - https://github.com/dcindallas
+
+#define base00 #171717
+#define base01 #171717
+#define base02 #212121
+#define base03 #b5966d
+#define base04 #537aef
+#define base05 #fdfcfa
+#define base06 #f1f2f8
+#define base07 #f7f7fb
+#define base08 #fcb01e
+#define base09 #bd93f9
+#define base0A #ff5935
+#define base0B #eff88a
+#define base0C #a1efe4
+#define base0D #62d6e8
+#define base0E #ea51b2
+#define base0F #51fe73
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
+! End flavours
+
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! ------------------------------------------------------------------------------
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+Xcursor.size: 24
+
