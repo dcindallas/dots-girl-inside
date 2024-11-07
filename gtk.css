@@ -1,0 +1,9 @@
+.thunar .sidebar .view {background-color: #171717;}
+.thunar .standard-view .view { background-color: #171717 ; }
+
+
+/* Change the background color of items when hovered */
+.view .cell:active,
+.view .cell:selected {
+    background-color: #363636;
+}
